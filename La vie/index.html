@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Teste</title>
 
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/415f58636f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +14,10 @@
 </head>
 <body class="gridContainer">
         <header>
-            <section><img src="./assets/imagens/logo/Marca La Vie1.svg" alt="Logo La vie" width="91px"></section>
-            <section>
+            <section class="header-superior">
+                <img src="./assets/imagens/logo/Marca La Vie1.svg" alt="Logo La vie" width="150px">
+            </section>
+            <section class="header-inferior">
                 <div class="pesquisa">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="search" placeholder="O que você procura?">
@@ -24,12 +26,12 @@
                     <a href="#">Coleções</a>
                     <a href="#">Moda Masculina</a>
                     <a href="#">Moda Feminina</a>
-                    <a href="#">Acessórios</a>
+                    <a href="#" class="ultimo">Acessórios</a>
                 </nav>
                 <div class="menu">
                     <i class="fa-solid fa-message"></i>
                     <i class="fa-solid fa-user"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-solid fa-bag-shopping" id="iconeSacola"></i>
                 </div>
             </section>
         </header>

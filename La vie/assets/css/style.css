@@ -3,18 +3,11 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-header {
-    border: 2px red solid;
-}
-
-main {
-    border: 2px violet solid;
-}
-
-footer {
-    border: 2px blue solid;
+body {
+    background-color: #FDF7F4;
 }
 
 .gridContainer {
@@ -27,5 +20,71 @@ header {
     display: grid;
 
     grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
 }
+
+.header-superior {
+    text-align: center;
+
+    padding: .5% 15%;
+}
+
+.header-inferior {
+    display: flex;
+    justify-content: space-between;
+    background-color: #352821;
+
+    padding: 1% 15%;
+}
+
+.header-inferior div {
+    width: 20%;
+}
+
+.header-inferior i {
+    color: #FDF7F4;
+    margin-right: 1%;
+}
+
+.header-inferior .pesquisa input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FDF7F4;
+
+    width: 90%;
+}
+
+.header-inferior .pesquisa input::placeholder {
+    color: #FDF7F4;
+    opacity: 95%;
+}
+
+.header-inferior nav {
+    width: 40%;
+    white-space: nowrap;
+    text-align: center;
+    
+    transform: translateX(+2%);
+}
+
+.header-inferior nav a {
+    margin-right: 4%;
+    color: #FDF7F4;
+}
+
+.header-inferior .menu {
+    text-align: end;
+}
+
+.header-inferior .menu i {
+    margin-right: 4%;
+}
+
+.ultimo {
+    margin: 0;
+}
+
+#iconeSacola {
+    margin-right: 0;
+}
+
