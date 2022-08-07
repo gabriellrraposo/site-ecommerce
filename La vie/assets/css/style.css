@@ -13,7 +13,7 @@ body {
 .gridContainer {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 9vh auto 30vh;
+    grid-template-rows: 15vh auto 30vh;
 }
 
 header {
@@ -31,7 +31,9 @@ header {
 
 .header-inferior {
     display: flex;
+    
     justify-content: space-between;
+    align-items: center;
     background-color: #352821;
 
     padding: 2vh 15%;
@@ -94,3 +96,14 @@ header {
     margin-right: 0;
 }
 
+
+/* MAIN */
+
+main {
+    display: grid;
+
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 100%;
+
+    border: 1px solid black;
+}
