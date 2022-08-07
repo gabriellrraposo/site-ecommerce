@@ -141,7 +141,7 @@ header {
 main {
     display: grid;
 
-    grid-template-rows: 1fr auto auto auto 1fr;
+    grid-template-rows: auto auto auto auto 1fr;
     grid-template-columns: 100%;
 }
 
@@ -207,3 +207,7 @@ main .mascFem a {
     margin-bottom: 5%;
 }
 
+main .acessorios a {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
