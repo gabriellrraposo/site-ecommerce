@@ -10,11 +10,45 @@ body {
     background-color: #FDF7F4;
 }
 
+:root {
+    --paddingPadrao: 15%;
+}
+
 .gridContainer {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 15vh auto 30vh;
 }
+
+.textoNormal {
+    font-size: 17px;
+}
+
+.titulo {
+    font-size: 20px;
+    color: #14410C;
+
+    margin: 7% 0;
+}
+
+.produto {
+    display: grid;
+    
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    
+    row-gap: 4%;
+}
+
+.descricao {
+    color: #625F5F;
+}
+
+.preco {
+    font-size: 20px;
+}
+
+/* HEADER */
 
 header {
     display: grid;
@@ -26,7 +60,7 @@ header {
 .header-superior {
     text-align: center;
 
-    padding: .5% 15%;
+    padding: .5% var(--paddingPadrao);
 }
 
 .header-inferior {
@@ -36,7 +70,7 @@ header {
     align-items: center;
     background-color: #352821;
 
-    padding: 2vh 15%;
+    padding: 2vh var(--paddingPadrao);
 }
 
 .header-inferior div {
@@ -63,8 +97,6 @@ header {
 .header-inferior .pesquisa input::placeholder {
     color: #FDF7F4;
     opacity: 95%;
-    
-    
 }
 
 .header-inferior nav {
@@ -105,3 +137,20 @@ main {
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: 100%;
 }
+
+main .destaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    padding: 0 var(--paddingPadrao);
+}
+
+main .destaques > div {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
