@@ -170,7 +170,6 @@ main .mascFem {
 
     background-color: #F3E2D8;
     padding-top: 7%;
-    padding-bottom: 7%;
 }
 
 main .mascFem img {
@@ -183,5 +182,24 @@ main .mascFem a {
     left: 35%;
 }
 
+.colecoes {
+    background-color: #F3E2D8;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 var(--paddingPadrao);
+}
+
+.colecoes div {
+    display: grid;
+
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+
+    row-gap: 3vw;
+
+    width: 100%;
+}
 
