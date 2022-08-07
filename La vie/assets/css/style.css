@@ -34,7 +34,7 @@ header {
     justify-content: space-between;
     background-color: #352821;
 
-    padding: 1% 15%;
+    padding: 2vh 15%;
 }
 
 .header-inferior div {
@@ -44,6 +44,10 @@ header {
 .header-inferior i {
     color: #FDF7F4;
     margin-right: 1%;
+}
+
+.header-inferior .pesquisa {
+    white-space: nowrap;
 }
 
 .header-inferior .pesquisa input {
@@ -57,6 +61,8 @@ header {
 .header-inferior .pesquisa input::placeholder {
     color: #FDF7F4;
     opacity: 95%;
+    
+    
 }
 
 .header-inferior nav {
