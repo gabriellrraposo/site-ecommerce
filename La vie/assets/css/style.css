@@ -51,7 +51,8 @@ body {
 .botao {
     color: white;
     background-color: #14410C;
-    padding: 2% 5%;
+    padding: .7vw 2vw;
+    border-radius: .15rem;
 }
 
 /* HEADER */
@@ -140,20 +141,21 @@ header {
 main {
     display: grid;
 
-    grid-template-rows: 1fr .8fr auto 3fr 1fr;
+    grid-template-rows: 1fr auto auto auto 1fr;
     grid-template-columns: 100%;
 }
 
-main .destaques {
+main .destaques, main .acessorios {
     display: flex;
     flex-direction: column;
     align-items: center;
     
     width: 100%;
     padding: 0 var(--paddingPadrao);
+    padding-bottom: 7%;
 }
 
-main .destaques > div {
+main .destaques > div, main .acessorios > div {
     width: 100%;
     
     display: flex;
@@ -190,6 +192,7 @@ main .mascFem a {
     align-items: center;
 
     padding: 0 var(--paddingPadrao);
+    padding-bottom: 7%;
 }
 
 .colecoes div {
@@ -201,5 +204,6 @@ main .mascFem a {
     row-gap: 3vw;
 
     width: 100%;
+    margin-bottom: 5%;
 }
 
