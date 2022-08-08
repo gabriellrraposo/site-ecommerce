@@ -291,3 +291,11 @@ footer .footerInferior {
     justify-content: space-between;
     margin-top: 1%;
 }
+
+.footerInferior div {
+    display: flex;
+}
+
+.footerInferior div img {
+    margin-right: 10%;
+}
