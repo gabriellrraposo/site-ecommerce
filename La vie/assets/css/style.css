@@ -20,7 +20,7 @@ body {
     grid-template-rows: 15vh auto 30vh;
 }
 
-.textoNormal {
+.textoNormal, .textoGrande {
     font-size: 17px;
 }
 
@@ -81,7 +81,7 @@ header {
     align-items: center;
     background-color: #352821;
 
-    padding: 2vh var(--paddingPadrao);
+    padding: 1vh var(--paddingPadrao);
 }
 
 .header-inferior div {
@@ -285,6 +285,10 @@ footer .iconesLateraisFooter {
 
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto;
+}
+
+.iconesLateraisFooter i {
+    margin-right: 3%;
 }
 
 footer .footerInferior {

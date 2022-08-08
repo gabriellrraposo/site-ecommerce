@@ -20,9 +20,10 @@ body {
     grid-template-rows: 15vh auto 30vh;
 }
 
-.textoNormal {
+.textoNormal, textoGrande {
     font-size: 17px;
 }
+
 
 .titulo {
     font-size: 20px;
@@ -86,7 +87,7 @@ header {
     align-items: center;
     background-color: #352821;
 
-    padding: 2vh var(--paddingPadrao);
+    padding: 1vw var(--paddingPadrao);
 }
 
 .header-inferior div {
@@ -156,6 +157,10 @@ main .novidades div, main .colecoes div {
     text-align: left;
 }
 
+main .novidades div img, main .colecoes div img {
+    max-width: 100%;
+}
+
 /* FOOTER */
 
 footer {
@@ -220,6 +225,10 @@ footer .iconesLateraisFooter {
 
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto;
+}
+
+.iconesLateraisFooter i {
+    margin-right: 3%;
 }
 
 footer .footerInferior {
