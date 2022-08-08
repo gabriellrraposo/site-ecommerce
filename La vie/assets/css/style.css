@@ -81,7 +81,7 @@ header {
     align-items: center;
     background-color: #352821;
 
-    padding: 1vh var(--paddingPadrao);
+    padding: 1vw var(--paddingPadrao);
 }
 
 .header-inferior div {
