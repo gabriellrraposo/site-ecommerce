@@ -206,9 +206,14 @@ main .mascFem a {
     grid-template-columns: auto auto;
 
     row-gap: 3vw;
+    column-gap: 3vw;
 
     width: 100%;
     margin-bottom: 5%;
+}
+
+.colecoes img {
+    width: 100%;
 }
 
 main .acessorios a {
