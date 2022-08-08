@@ -59,6 +59,11 @@ body {
     font-size: 15px;
 }
 
+.subtitulo {
+    font-size: 18px;
+    color: #352821;
+}
+
 /* HEADER */
 
 header {
@@ -137,6 +142,18 @@ header {
 
 #iconeSacola {
     margin-right: 0;
+}
+
+/* MAIN */
+
+main .novidades, main .colecoes {
+    padding: 0 var(--paddingPadrao);
+    text-align: center;
+}
+
+main .novidades div, main .colecoes div {
+    margin-bottom: 10%;
+    text-align: left;
 }
 
 /* FOOTER */
