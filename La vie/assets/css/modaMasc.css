@@ -231,8 +231,8 @@ main .produtos {
 }
 
 .filtro button {
-    width: 15%;
-    padding: 2%;
+    width: 20%;
+    padding: 2% 5%;
     background-color: transparent;
     border: 1px solid #352821;
     border-radius: .2rem;
