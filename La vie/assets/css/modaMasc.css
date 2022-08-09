@@ -200,14 +200,12 @@ main .produtos {
 }
 
 .produtos .filtro {
-    width: 15%;
+    width: 75%;
     
     display: grid;
 
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto;
-
-    margin-bottom: 37%;
     color: #352821;
 }
 
@@ -224,6 +222,7 @@ main .produtos {
 .filtro span {
     margin: 10% 0;
     font-weight: 700;
+    height: fit-content;
 }
 
 .filtro .tamanho {
@@ -232,7 +231,7 @@ main .produtos {
 }
 
 .filtro button {
-    width: 20%;
+    width: 15%;
     padding: 2%;
     background-color: transparent;
     border: 1px solid #352821;
