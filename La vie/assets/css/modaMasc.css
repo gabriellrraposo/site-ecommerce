@@ -180,7 +180,7 @@ main .destaques {
     padding-bottom: 7%;
 }
 
-main .destaques > div {
+main .destaques > div, .produtos .navegacaoProdutos > div {
     width: 100%;
     
     display: flex;
@@ -190,6 +190,13 @@ main .destaques > div {
 main .produtos {
     padding: 5% var(--paddingPadrao);
     background-color: #F3E2D8;
+}
+
+.produtos {
+    display: grid;
+
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
 }
 
 .produtos .filtro {
@@ -245,8 +252,8 @@ main .produtos {
     margin-bottom: 7%;
 }
 
-.produtos .navegacaoProdutos {
-    
+.produtos .navegacaoProdutos > div > div {
+    margin-bottom: 10%;
 }
 
 /* FOOTER */
