@@ -145,22 +145,6 @@ header {
     margin-right: 0;
 }
 
-/* MAIN */
-
-main .novidades, main .colecoes {
-    padding: 0 var(--paddingPadrao);
-    text-align: center;
-}
-
-main .novidades div, main .colecoes div {
-    margin-bottom: 10%;
-    text-align: left;
-}
-
-main .novidades div img, main .colecoes div img {
-    max-width: 100%;
-}
-
 /* FOOTER */
 
 footer {
