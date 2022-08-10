@@ -135,6 +135,10 @@ header {
     color: #F3E2D8;
 }
 
+.header-inferior nav a:hover {
+    color: #FDF7F4;
+}
+
 .header-inferior .menu {
     text-align: end;
 }
