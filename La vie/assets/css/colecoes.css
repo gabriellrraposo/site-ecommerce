@@ -178,6 +178,11 @@ main .colecoes {
     padding-top: 2%;
 }
 
+main img {
+    width: 100%;
+    
+}
+
 main .novidades div img, main .colecoes div img {
     max-width: 100%;
 }
