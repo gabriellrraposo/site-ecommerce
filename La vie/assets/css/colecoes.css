@@ -242,6 +242,11 @@ footer .iconesLateraisFooter {
     margin-right: 3%;
 }
 
+.iconesLateraisFooter i:hover {
+    color: #FDF7F4;
+    cursor: pointer;
+}
+
 footer .footerInferior {
     display: flex;
 
