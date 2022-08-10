@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #FDF7F4;
+}
+
+:root {
+    --paddingPadrao: 15%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh auto 30vh;
+}
+
+.textoNormal, .textoGrande {
+    font-size: 17px;
+}
+
+
+.titulo {
+    font-size: 20px;
+    color: #14410C;
+
+    margin: 7% 0;
+}
+
+.produto {
+    display: grid;
+    
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    
+    row-gap: 4%;
+}
+
+.descricao {
+    color: #635249;
+}
+
+.preco {
+    font-size: 20px;
+}
+
+.botao {
+    color: white;
+    background-color: #14410C;
+    padding: .7vw 2vw;
+    border-radius: .15rem;
+}
+
+.textoPequeno {
+    font-size: 15px;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #352821;
+}
+
+/* HEADER */
+
+header {
+    display: grid;
+
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+}
+
+.header-superior {
+    text-align: center;
+
+    padding: .5% var(--paddingPadrao);
+}
+
+.header-inferior {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #352821;
+
+    padding: 1vw var(--paddingPadrao);
+}
+
+.header-inferior div {
+    width: 20%;
+}
+
+.header-inferior i {
+    color: #FDF7F4;
+    margin-right: 1%;
+}
+
+.header-inferior .pesquisa {
+    white-space: nowrap;
+}
+
+.header-inferior .pesquisa input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FDF7F4;
+
+    width: 90%;
+}
+
+.header-inferior .pesquisa input::placeholder {
+    color: #FDF7F4;
+    opacity: 95%;
+}
+
+.header-inferior nav {
+    width: 40%;
+    white-space: nowrap;
+    text-align: center;
+    
+    transform: translateX(+2%);
+}
+
+.header-inferior nav a {
+    margin-right: 4%;
+    color: #FDF7F4;
+}
+
+.header-inferior .menu {
+    text-align: end;
+}
+
+.header-inferior .menu i {
+    margin-right: 4%;
+}
+
+.ultimo {
+    margin: 0;
+}
+
+#iconeSacola {
+    margin-right: 0;
+}
+
+/* MAIN */
+
+main {
+    display: grid;
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+}
+
+.bannerModaMasc {
+    padding: 5% var(--paddingPadrao);
+    
+    width: 100%;
+    height: 42vw;
+    background: linear-gradient(to bottom, rgba(10, 10, 10, .6), rgba(7, 7, 7, .6) 60%), url(../imagens/produtos/roupas/feminina/bannerFeminino.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: white;
+    font-size: 60px;
+}
+
+main .destaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    padding: 0 var(--paddingPadrao);
+    padding-bottom: 7%;
+}
+
+main .destaques > div, .produtos .navegacaoProdutos > div {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+main .produtos {
+    padding: 5% var(--paddingPadrao);
+    background-color: #F3E2D8;
+}
+
+.produtos {
+    display: grid;
+
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+}
+
+.produtos .filtro {
+    width: 75%;
+    
+    display: grid;
+
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    color: #352821;
+}
+
+.filtro div {
+    display: flex;
+    flex-direction: column;
+}
+
+.filtro hr {
+    margin-bottom: 5%;
+    color: #352821;
+}
+
+.filtro span {
+    margin: 10% 0;
+    font-weight: 700;
+    height: fit-content;
+}
+
+.filtro .tamanho {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.filtro button {
+    width: 20%;
+    padding: 2% 5%;
+    background-color: transparent;
+    border: 1px solid #352821;
+    border-radius: .2rem;
+
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.filtro .opcaoFiltro {
+    display: flex;
+    flex-direction: row;
+}
+
+.filtro input[type="checkbox"] {
+    margin-right: 10%;
+    margin-bottom: 7%;
+}
+
+.produtos .navegacaoProdutos > div > div {
+    margin-bottom: 10%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #352821;
+    padding: 2% var(--paddingPadrao);
+
+    color: #F3E2D8;
+    height: fit-content;
+
+    display: grid;
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+}
+
+footer img {
+    margin-bottom: 3%;
+}
+
+footer .footerMeio {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+footer .linksFooter {
+    display: grid;
+
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto;
+
+
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    column-gap: 25%;
+
+    white-space: nowrap;
+}
+
+footer .linksFooter div {
+    display: flex;
+
+    flex-direction: column;
+}
+
+footer .linksFooter div h3 {
+    margin-bottom: 20%;
+}
+
+footer .linksFooter div a {
+    color: #F3E2D8;
+    margin-bottom: 5%;
+}
+
+footer .iconesLateraisFooter {
+    text-align: right;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    display: grid;
+
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+}
+
+.iconesLateraisFooter i {
+    margin-right: 3%;
+}
+
+footer .footerInferior {
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.footerInferior div {
+    display: flex;
+}
+
+.footerInferior div img {
+    margin-right: 10%;
+}
