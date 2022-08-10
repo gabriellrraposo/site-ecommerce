@@ -54,6 +54,13 @@ body {
     background-color: #14410C;
     padding: .7vw 2vw;
     border-radius: .15rem;
+    border: 1px solid #14410C;
+}
+
+.botao:hover {
+    color: #14410C;
+    background-color: #FDF7F4;
+    border: 1px solid #14410C;
 }
 
 .textoPequeno {
@@ -214,6 +221,10 @@ footer .linksFooter div h3 {
 footer .linksFooter div a {
     color: #F3E2D8;
     margin-bottom: 5%;
+}
+
+footer .linksFooter div a:hover {
+    text-decoration: underline;
 }
 
 footer .iconesLateraisFooter {
