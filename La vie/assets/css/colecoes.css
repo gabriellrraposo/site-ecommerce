@@ -173,6 +173,11 @@ main .novidades div, main .colecoes div {
     text-align: left;
 }
 
+main .colecoes {
+    background-color: #F3E2D8;
+    padding-top: 2%;
+}
+
 main .novidades div img, main .colecoes div img {
     max-width: 100%;
 }
