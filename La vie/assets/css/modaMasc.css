@@ -59,7 +59,7 @@ body {
 
 .botao:hover {
     color: #14410C;
-    background-color: #FDF7F4;
+    background-color: transparent;
     border: 1px solid #14410C;
 }
 
