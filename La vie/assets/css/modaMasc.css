@@ -257,6 +257,12 @@ main .produtos {
     margin-bottom: 3%;
 }
 
+.filtro button:hover {
+    background-color: #635249;
+    color: #F3E2D8;
+    cursor: pointer;
+}
+
 .filtro .opcaoFiltro {
     display: flex;
     flex-direction: row;
