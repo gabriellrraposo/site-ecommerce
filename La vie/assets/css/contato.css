@@ -30,6 +30,7 @@ body {
     color: #14410C;
 
     margin: 7% 0;
+    justify-self: center;
 }
 
 .produto {
@@ -213,6 +214,42 @@ main .meiosContato > div > div p {
     max-width: 80%;
     text-align: center;
     margin-top: 5%;
+}
+
+main .formularioContato {
+    padding: 0 var(--paddingPadrao);
+    
+    display: grid;
+
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+main .formularioContato form {
+    display: grid;
+
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    row-gap: 5%;
+
+    margin-bottom: 7%;
+}
+
+main .formularioContato form > div input {
+    width: 33%;
+    
+    padding: .5%;
+    border: 1px solid #352821;
+}
+
+main .formularioContato form textarea {
+    border: 1px solid #352821;
+}
+
+main .formularioContato form input {
+    width: 20%;
+    justify-self: center;
+    margin-top: 2%;
 }
 
 /* FOOTER */
