@@ -72,6 +72,10 @@ body {
     color: #352821;
 }
 
+img {
+    cursor: pointer;
+}
+
 /* HEADER */
 
 header {
