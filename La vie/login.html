@@ -16,7 +16,7 @@
 <body class="gridContainer">
     <header>
         <section class="header-superior">
-            <img src="./assets/imagens/logo/MarcaLaVie1.svg" alt="Logo La vie" width="150px">
+            <a href="./index.html"><img src="./assets/imagens/logo/MarcaLaVie1.svg" alt="Logo La vie" width="150px"></a>
         </section>
     </header>
     <main>
@@ -25,18 +25,25 @@
             <form>
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Senha">
-                <span>Esqueceu sua senha?</span>
-                <input type="submit" value="Entrar">
+                
+                <input type="submit" value="Entrar" class="botao">
+                <div class="opcoes">
+                    <span>Não possui conta? <a href="#">Cadastre-se</a></span>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
             </form>
-            <span>OR</span>
-            <div class="google">
-                <i class="fa-brands fa-google"></i>
-                <button>Continue com o Google</button>
+            <span>OU</span>
+            <div class="entreCom">
+                <div class="google">
+                    <i class="fa-brands fa-google"></i>
+                    <button>Continue com o Google</button>
+                </div>
+                <div class="apple">
+                    <i class="fa-brands fa-apple"></i>
+                    <button>Continue com a Apple</button>
+                </div>
             </div>
-            <div class="apple">
-                <i class="fa-brands fa-apple"></i>
-                <button>Continue com a Apple</button>
-            </div>
+            <img src="./assets/imagens/logo/MarcaLaVie1.svg" width="100px">
         </div>
     </main>
 </body>
