@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #352821;
+}
+
+body {
+    background-color: #FDF7F4;
+    background: url(../imagens/background-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --paddingPadrao: 15%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 75vh;
+}
+
+.textoNormal, .textoGrande {
+    font-size: 17px;
+}
+
+.titulo {
+    font-size: 20px;
+    color: #14410C;
+
+    margin: 0 0 7% 0;
+}
+
+.botao {
+    color: #FDF7F4;
+    background-color: #14410C;
+    padding: .7vw 2vw;
+    border-radius: .15rem;
+    border: 1px solid #14410C;
+}
+
+.botao:hover {
+    color: #14410C;
+    background-color: #FDF7F4;
+    border: 1px solid #14410C;
+    cursor: pointer;
+}
+
+.textoPequeno {
+    font-size: 15px;
+}
+
+/* HEADER */
+
+.header-superior {
+    text-align: center;
+
+    padding: .5% var(--paddingPadrao);
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 30%;
+    height: 80vh;
+    background-color: rgba(243, 226, 216, .80);
+    border-radius: 1rem;
+
+    padding: 2% .2%;
+}
+
+main > div form {
+    display: flex;
+    flex-direction: column;
+
+    width: 65%;
+}
+
+.container-login form input {
+    height: 2.5vw;
+    margin-bottom: 5%;
+
+    
+}
+
+.container-login form input[type="submit"] {
+    margin-bottom: 5%;
+}
+
+.container-login form .opcoes {
+    display: grid;
+
+    grid-template-rows: auto auto;
+    row-gap: 30%;
+}
+
+.container-login form span a:hover {
+    text-decoration: underline;
+}
+
+
+.container-login > span {
+    margin: 7% 0;
+}
+
+.container-login .entreCom {
+    width: 65%;
+}
+
+.entreCom > div {
+    display: grid;
+
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 8fr;
+
+    padding: 2%;
+}
+
+.entreCom > div button {
+    
+    color: #352821;
+    background-color: transparent;
+    padding: .7vw 2vw;
+    border-radius: .15rem;
+    border: 1px solid #352821;
+
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.entreCom > div button:hover {
+    color: #14410C;
+    border: 1px solid #14410C;
+    cursor: pointer;
+}
+
+.entreCom > div .fa-google {
+    font-size: 1.55rem;
+    align-self: center;
+}
+
+.entreCom > div .fa-apple {
+    font-size: 2rem;
+    align-self: center;
+}
+
+.container-login img {
+    margin: 12% 0 0 0;
+}

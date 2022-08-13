@@ -32,7 +32,7 @@ body {
     font-size: 20px;
     color: #14410C;
 
-    margin: 7% 0;
+    margin: 0 0 7% 0;
 }
 
 .botao {
@@ -77,6 +77,8 @@ main > div {
     width: 30%;
     background-color: rgba(243, 226, 216, .80);
     border-radius: 1rem;
+
+    padding: 2% .2%;
 }
 
 main > div form {
@@ -153,5 +155,5 @@ main > div form {
 }
 
 .container-login img {
-    margin: 12% 0 7% 0;
+    margin: 12% 0 0 0;
 }
